@@ -1,31 +1,23 @@
-.hoverCardContents {
-    background: white;
-    color: #000;
-    padding: 1rem;
-    border-radius: 10px;
-    z-index: 2;
-    animation: fade 300;
-    /* display: none; */
-    /* opacity: 0;
-    transition: opacity 0.3s ease, visibility 0.3s ease; */
+.triggerRefEnv{
+    width: fit-content;
 }
 
-/* .HoverCardContents.show {
-    display: block;
-    opacity: 1;
-    visibility: visible;
-} */
+.contentRefEnv{
+    width: fit-content;
+    height: max-content;
+    width: max-content;
+    z-index: 2;
+}
 
 .hoverCardTrigger {
     cursor: pointer;
+    width: fit-content;
 }
 
-@keyframes fade {
-    0% {
-        opacity: 0;
-    }
-
-    100% {
-        opacity: 1;
-    }
+.hoverCardContents {
+    background: wheat;
+    color: black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 1rem;
+    border-radius: 10px;
 }
